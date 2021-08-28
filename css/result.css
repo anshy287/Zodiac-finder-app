@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "open sans", sans-serif;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.result-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: cornsilk;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+img {
+  height: 50vw;
+  width: 50vw;
+}
+h1 {
+  font-size: 10vmax;
+  font-weight: 100;
+}
+.credits {
+  margin-top: 5vmax;
+}

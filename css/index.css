@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "open sans", sans-serif;
+  background-color: blue;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: cornsilk;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 40vh;
+  height: 20vh;
+  background-color: rgb(241, 238, 238);
+  border-radius: 15px;
+  box-shadow: rgb(2, 4, 7);
+}
+input[type="date"],
+input[type="submit"] {
+  padding: 0 20%;
+  background-color: rgb(241, 238, 238);
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-size: 16px;
+  border-radius: 15px;
+}
+input[type="submit"] {
+  background-color: hotpink;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  border: 2px currentColor;
+  transition: 0.5 sec;
+}
+input[type="submit"]:hover {
+  background-color: white;
+  color: hotpink;
+  cursor: pointer;
+  border: 2px currentColor;
+}
+@media screen and(max-width: 576px) {
+  .card {
+    width: 80vw;
+  }
+}
